@@ -25,5 +25,17 @@ namespace MySqlDemo.Web.Controllers
                 JsonRequestBehavior = JsonRequestBehavior.AllowGet
             };
         }
+
+        public ActionResult Page()
+        {
+            var dt = DbHelper.GetTable("select * from customers limit 1,10");
+            var obj = dt.ToListModel<Customers>();
+
+            return new JsonResult
+            {
+                Data = obj,
+                JsonRequestBehavior = JsonRequestBehavior.AllowGet
+            };
+        }
     }
 }

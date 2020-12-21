@@ -28,7 +28,7 @@
       <publishTime>12/20/2020 03:11:38</publishTime>
     </File>
     <File Include="bin/MySqlDemo.Web.dll">
-      <publishTime>12/20/2020 03:12:37</publishTime>
+      <publishTime>12/20/2020 17:25:06</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>11/09/2019 00:56:44</publishTime>
@@ -118,13 +118,13 @@
       <publishTime>12/15/2020 21:00:07</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>12/20/2020 00:12:17</publishTime>
+      <publishTime>12/20/2020 17:24:36</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>12/19/2020 23:52:05</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/20/2020 03:12:43</publishTime>
+      <publishTime>12/20/2020 17:25:06</publishTime>
     </File>
   </ItemGroup>
 </Project>
